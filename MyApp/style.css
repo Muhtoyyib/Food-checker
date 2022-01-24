@@ -57,18 +57,19 @@ body {
 
 #app {
     margin-top: 50px;
-    margin-left: 500px;
+    margin-left: 550px;
+    
 
 }
 
 input{
-    width: 250px;
+    width: 350px;
     height: 30px;
 }
 
 button {
     margin-top: 10px;
-    margin-left: 180px;
+    margin-left: 130px;
     width: 100px;
     height: 30px;
     background-color: green;
@@ -104,4 +105,3 @@ button {
     }
 }
 
-@
