@@ -58,10 +58,11 @@ body {
 #app {
     margin-top: 50px;
     margin-left: 500px;
+
 }
 
 input{
-    width: 50%;
+    width: 250px;
     height: 30px;
 }
 
@@ -73,3 +74,34 @@ button {
     background-color: green;
     color: honeydew;
 }
+
+@media (max-width: 479px)  {
+    #container{
+        margin-left: 5px;
+    }
+
+    #container h1{
+        font-size: 15px;
+        margin-left: -5px;
+    }
+
+    #container p {
+        font-size: 12px;
+        margin-left: -12px;
+        word-wrap: break-word;
+    }
+
+    #container h2 {
+        margin-left: -15px;
+    }
+
+    #app {
+        margin-left: 50px;
+    }
+
+    button {
+        margin-left: 80px;
+    }
+}
+
+@
